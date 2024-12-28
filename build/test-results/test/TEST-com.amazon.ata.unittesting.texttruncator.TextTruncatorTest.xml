@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" tests="4" skipped="0" failures="1" errors="0" timestamp="2024-01-21T00:13:47" hostname="DESKTOP-URGQT26" time="0.059">
+<testsuite name="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" tests="4" skipped="0" failures="1" errors="0" timestamp="2024-12-28T19:15:56" hostname="DESKTOP-URGQT26" time="0.102">
   <properties/>
-  <testcase name="truncateTo_withShortString_returnedStringEqualsGivenString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.054">
+  <testcase name="truncateTo_withShortString_returnedStringEqualsGivenString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.083">
     <failure message="org.opentest4j.AssertionFailedError: The returned string should match the original string when not truncated. ==&gt; expected: &lt;short&gt; but was: &lt;short...&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The returned string should match the original string when not truncated. ==&gt; expected: &lt;short&gt; but was: &lt;short...&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -100,9 +100,9 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="truncateTo_withNull_resultsInAnEmptyString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
+  <testcase name="truncateTo_withNull_resultsInAnEmptyString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.004"/>
   <testcase name="truncateTo_withLongString_returnedLengthMatchesNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
-  <testcase name="truncateTo_stringLongerThanNumChars_shortensToFirstNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
+  <testcase name="truncateTo_stringLongerThanNumChars_shortensToFirstNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
